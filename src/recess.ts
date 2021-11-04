@@ -1,10 +1,8 @@
 const recess = [
   {
-    label: "must be first",
     properties: ["all"],
   },
   {
-    label: "position",
     properties: [
       "position",
       "inset",
@@ -18,11 +16,9 @@ const recess = [
     ],
   },
   {
-    label:"display mode",
     properties: ["box-sizing", "display"],
   },
   {
-    label: "flexible boxes",
     properties: [
       "flex",
       "flex-basis",
@@ -34,7 +30,6 @@ const recess = [
     ],
   },
   {
-    label: "grid layout",
     properties: [
       "grid",
       "grid-area",
@@ -57,11 +52,9 @@ const recess = [
     ],
   },
   {
-    label: "gap",
     properties: ["gap", "row-gap", "column-gap"],
   },
   {
-    label: "layout alignment",
     properties: [
       "place-content",
       "place-items",
@@ -75,11 +68,9 @@ const recess = [
     ],
   },
   {
-    label: "order",
     properties: ["order"],
   },
   {
-    label: "box model",
     properties: [
       "float",
       "width",
@@ -116,7 +107,6 @@ const recess = [
     ],
   },
   {
-    label: "typography",
     properties: [
       "font",
       "font-family",
@@ -172,7 +162,7 @@ const recess = [
       "letter-spacing",
       "word-break",
       "word-spacing",
-      "word-wrap", 
+      "word-wrap",
       "overflow-wrap",
       "tab-size",
       "white-space",
@@ -184,7 +174,6 @@ const recess = [
     ],
   },
   {
-    label: "accessibility & interactions",
     properties: [
       "pointer-events",
       "-ms-touch-action",
@@ -211,7 +200,6 @@ const recess = [
     ],
   },
   {
-    label: "background & borders",
     properties: [
       "background",
       "background-color",
@@ -275,7 +263,6 @@ const recess = [
     ],
   },
   {
-    label: "svg presentation attributes",
     properties: [
       "alignment-baseline",
       "baseline-shift",
@@ -314,7 +301,6 @@ const recess = [
     ],
   },
   {
-    label: "transitions & animation",
     properties: [
       "transition",
       "transition-delay",
@@ -334,4 +320,5 @@ const recess = [
     ],
   },
 ];
-exports.recess = recess;
+
+export default recess;
